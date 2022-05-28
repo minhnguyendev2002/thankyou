@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #f59721;
+    --second-color: #fec882;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.container, footer {
+    max-width: 460px !important;
+    margin: 0 auto;
+}
+p {
+    line-height: 24px;
+}
+.spacing-sm {
+    margin: 100px 0px 50px 0px;
+}
+.spacing-bottom {
+    margin-bottom: 50px;
+}
+.spacing-top {
+    margin-top: 50px;
+}
+.text-lg {
+    font-size: 30px !important;
+}
+.text-md {
+    font-size: 21px;
+    font-weight: 600;
+}
+.text-sm {
+    font-size: 14px;
+}
+.container h1 {
+    color: #203656;
+}
+.background {
+    background-color: #f59721;
+    color: #FFF;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
